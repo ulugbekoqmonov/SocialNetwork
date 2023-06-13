@@ -1,0 +1,787 @@
+2023-06-05 05:22:14.668 +05:00 [INF] Application is started
+2023-06-05 05:22:14.972 +05:00 [FTL] The host was aborted.
+Microsoft.Extensions.Hosting.HostAbortedException: The host was aborted.
+   at Microsoft.Extensions.Hosting.HostFactoryResolver.HostingListener.ThrowHostAborted()
+   at Microsoft.Extensions.Hosting.HostFactoryResolver.HostingListener.OnNext(KeyValuePair`2 value)
+   at System.Diagnostics.DiagnosticListener.Write(String name, Object value)
+   at Microsoft.Extensions.Hosting.HostBuilder.ResolveHost(IServiceProvider serviceProvider, DiagnosticListener diagnosticListener)
+   at Microsoft.Extensions.Hosting.HostApplicationBuilder.Build()
+   at Microsoft.AspNetCore.Builder.WebApplicationBuilder.Build()
+   at WebUI.Program.Build(WebApplicationBuilder builder) in E:\Sofwarwe Devolopment\C#(.Net)\Working\SocialNetwork\ApplicationWebAPI\Program.cs:line 106
+   at WebUI.Program.Main(String[] args) in E:\Sofwarwe Devolopment\C#(.Net)\Working\SocialNetwork\ApplicationWebAPI\Program.cs:line 31
+2023-06-05 05:24:12.054 +05:00 [INF] Application is started
+2023-06-05 05:24:12.195 +05:00 [FTL] The host was aborted.
+Microsoft.Extensions.Hosting.HostAbortedException: The host was aborted.
+   at Microsoft.Extensions.Hosting.HostFactoryResolver.HostingListener.ThrowHostAborted()
+   at Microsoft.Extensions.Hosting.HostFactoryResolver.HostingListener.OnNext(KeyValuePair`2 value)
+   at System.Diagnostics.DiagnosticListener.Write(String name, Object value)
+   at Microsoft.Extensions.Hosting.HostBuilder.ResolveHost(IServiceProvider serviceProvider, DiagnosticListener diagnosticListener)
+   at Microsoft.Extensions.Hosting.HostApplicationBuilder.Build()
+   at Microsoft.AspNetCore.Builder.WebApplicationBuilder.Build()
+   at WebUI.Program.Build(WebApplicationBuilder builder) in E:\Sofwarwe Devolopment\C#(.Net)\Working\SocialNetwork\ApplicationWebAPI\Program.cs:line 106
+   at WebUI.Program.Main(String[] args) in E:\Sofwarwe Devolopment\C#(.Net)\Working\SocialNetwork\ApplicationWebAPI\Program.cs:line 31
+2023-06-05 05:28:51.871 +05:00 [INF] Application is started
+2023-06-05 05:28:52.094 +05:00 [FTL] The following errors occurred with attribute routing information:
+
+Error 1:
+For action: 'WebUI.Controllers.UserController.CreateUser (WebUI)'
+Error: The route template 'api/[controller]/[action}' has invalid syntax. A replacement token is not closed.
+System.InvalidOperationException: The following errors occurred with attribute routing information:
+
+Error 1:
+For action: 'WebUI.Controllers.UserController.CreateUser (WebUI)'
+Error: The route template 'api/[controller]/[action}' has invalid syntax. A replacement token is not closed.
+   at Microsoft.AspNetCore.Mvc.ApplicationModels.ApplicationModelFactory.Flatten[TResult](ApplicationModel application, Func`5 flattener)
+   at Microsoft.AspNetCore.Mvc.ApplicationModels.ControllerActionDescriptorProvider.OnProvidersExecuting(ActionDescriptorProviderContext context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.DefaultActionDescriptorCollectionProvider.UpdateCollection()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.DefaultActionDescriptorCollectionProvider.Initialize()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.DefaultActionDescriptorCollectionProvider.GetChangeToken()
+   at Microsoft.Extensions.Primitives.ChangeToken.OnChange(Func`1 changeTokenProducer, Action changeTokenConsumer)
+   at Microsoft.AspNetCore.Mvc.Routing.ActionEndpointDataSourceBase.Subscribe()
+   at Microsoft.AspNetCore.Builder.ControllerEndpointRouteBuilderExtensions.GetOrCreateDataSource(IEndpointRouteBuilder endpoints)
+   at Microsoft.AspNetCore.Builder.ControllerEndpointRouteBuilderExtensions.MapControllers(IEndpointRouteBuilder endpoints)
+   at WebUI.Program.Build(WebApplicationBuilder builder) in E:\Sofwarwe Devolopment\C#(.Net)\Working\SocialNetwork\ApplicationWebAPI\Program.cs:line 124
+   at WebUI.Program.Main(String[] args) in E:\Sofwarwe Devolopment\C#(.Net)\Working\SocialNetwork\ApplicationWebAPI\Program.cs:line 31
+2023-06-05 05:29:44.320 +05:00 [INF] Application is started
+2023-06-05 05:29:44.534 +05:00 [INF] User profile is available. Using 'C:\Users\Ulug'bek\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-06-05 05:29:44.684 +05:00 [INF] Now listening on: https://localhost:7057
+2023-06-05 05:29:44.685 +05:00 [INF] Now listening on: http://localhost:5052
+2023-06-05 05:29:44.686 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-06-05 05:29:44.687 +05:00 [INF] Hosting environment: Development
+2023-06-05 05:29:44.688 +05:00 [INF] Content root path: E:\Sofwarwe Devolopment\C#(.Net)\Working\SocialNetwork\ApplicationWebAPI
+2023-06-05 05:29:46.551 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7057/swagger/index.html - -
+2023-06-05 05:29:46.684 +05:00 [INF] Request:
+Protocol: HTTP/2
+Method: GET
+Scheme: https
+PathBase: 
+Path: /swagger/index.html
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Host: localhost:7057
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br
+Accept-Language: uz-UZ,uz;q=0.9,en;q=0.8,ru;q=0.7
+Upgrade-Insecure-Requests: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-user: [Redacted]
+sec-fetch-dest: [Redacted]
+sec-ch-ua: [Redacted]
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+2023-06-05 05:29:47.075 +05:00 [INF] Response:
+StatusCode: 200
+Content-Type: text/html;charset=utf-8
+2023-06-05 05:29:47.079 +05:00 [INF] HTTP GET /swagger/index.html responded 200 in 401.4902 ms
+2023-06-05 05:29:47.136 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7057/swagger/index.html - - - 200 - text/html;charset=utf-8 589.9764ms
+2023-06-05 05:29:47.180 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7057/_vs/browserLink - -
+2023-06-05 05:29:47.181 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7057/_framework/aspnetcore-browser-refresh.js - -
+2023-06-05 05:29:47.201 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7057/_framework/aspnetcore-browser-refresh.js - - - 200 11980 application/javascript;+charset=utf-8 18.4420ms
+2023-06-05 05:29:47.280 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7057/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 99.4153ms
+2023-06-05 05:29:47.572 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7057/swagger/v1/swagger.json - -
+2023-06-05 05:29:47.573 +05:00 [INF] Request:
+Protocol: HTTP/2
+Method: GET
+Scheme: https
+PathBase: 
+Path: /swagger/v1/swagger.json
+Accept: application/json,*/*
+Host: localhost:7057
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br
+Accept-Language: uz-UZ,uz;q=0.9,en;q=0.8,ru;q=0.7
+Referer: [Redacted]
+sec-ch-ua: [Redacted]
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-dest: [Redacted]
+2023-06-05 05:29:47.816 +05:00 [INF] Response:
+StatusCode: 200
+Content-Type: application/json;charset=utf-8
+Date: Mon, 05 Jun 2023 00:29:47 GMT
+Server: Kestrel
+2023-06-05 05:29:47.818 +05:00 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 244.9944 ms
+2023-06-05 05:29:47.821 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7057/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 249.5955ms
+2023-06-05 05:35:53.123 +05:00 [INF] Application is started
+2023-06-05 05:35:53.327 +05:00 [INF] User profile is available. Using 'C:\Users\Ulug'bek\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-06-05 05:35:53.428 +05:00 [INF] Now listening on: https://localhost:7057
+2023-06-05 05:35:53.429 +05:00 [INF] Now listening on: http://localhost:5052
+2023-06-05 05:35:53.431 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-06-05 05:35:53.432 +05:00 [INF] Hosting environment: Development
+2023-06-05 05:35:53.433 +05:00 [INF] Content root path: E:\Sofwarwe Devolopment\C#(.Net)\Working\SocialNetwork\ApplicationWebAPI
+2023-06-05 05:35:54.638 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7057/swagger/index.html - -
+2023-06-05 05:35:54.733 +05:00 [INF] Request:
+Protocol: HTTP/2
+Method: GET
+Scheme: https
+PathBase: 
+Path: /swagger/index.html
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Host: localhost:7057
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br
+Accept-Language: uz-UZ,uz;q=0.9,en;q=0.8,ru;q=0.7
+Upgrade-Insecure-Requests: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-user: [Redacted]
+sec-fetch-dest: [Redacted]
+sec-ch-ua: [Redacted]
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+2023-06-05 05:35:55.016 +05:00 [INF] Response:
+StatusCode: 200
+Content-Type: text/html;charset=utf-8
+2023-06-05 05:35:55.022 +05:00 [INF] HTTP GET /swagger/index.html responded 200 in 293.3252 ms
+2023-06-05 05:35:55.059 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7057/swagger/index.html - - - 200 - text/html;charset=utf-8 430.0931ms
+2023-06-05 05:35:55.121 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7057/_framework/aspnetcore-browser-refresh.js - -
+2023-06-05 05:35:55.127 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7057/_vs/browserLink - -
+2023-06-05 05:35:55.171 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7057/_framework/aspnetcore-browser-refresh.js - - - 200 11980 application/javascript;+charset=utf-8 49.8748ms
+2023-06-05 05:35:55.254 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7057/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 127.3844ms
+2023-06-05 05:35:55.628 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7057/swagger/v1/swagger.json - -
+2023-06-05 05:35:55.679 +05:00 [INF] Request:
+Protocol: HTTP/2
+Method: GET
+Scheme: https
+PathBase: 
+Path: /swagger/v1/swagger.json
+Accept: application/json,*/*
+Host: localhost:7057
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br
+Accept-Language: uz-UZ,uz;q=0.9,en;q=0.8,ru;q=0.7
+Referer: [Redacted]
+sec-ch-ua: [Redacted]
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-dest: [Redacted]
+2023-06-05 05:35:55.913 +05:00 [INF] Response:
+StatusCode: 200
+Content-Type: application/json;charset=utf-8
+Date: Mon, 05 Jun 2023 00:35:55 GMT
+Server: Kestrel
+2023-06-05 05:35:55.921 +05:00 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 242.0330 ms
+2023-06-05 05:35:55.922 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7057/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 294.4226ms
+2023-06-05 05:40:04.161 +05:00 [INF] Application is started
+2023-06-05 05:40:04.410 +05:00 [INF] User profile is available. Using 'C:\Users\Ulug'bek\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-06-05 05:40:04.503 +05:00 [INF] Now listening on: https://localhost:7057
+2023-06-05 05:40:04.504 +05:00 [INF] Now listening on: http://localhost:5052
+2023-06-05 05:40:04.506 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-06-05 05:40:04.507 +05:00 [INF] Hosting environment: Development
+2023-06-05 05:40:04.507 +05:00 [INF] Content root path: E:\Sofwarwe Devolopment\C#(.Net)\Working\SocialNetwork\ApplicationWebAPI
+2023-06-05 05:40:33.530 +05:00 [INF] Application is started
+2023-06-05 05:40:33.747 +05:00 [INF] User profile is available. Using 'C:\Users\Ulug'bek\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-06-05 05:40:33.846 +05:00 [INF] Now listening on: https://localhost:7057
+2023-06-05 05:40:33.847 +05:00 [INF] Now listening on: http://localhost:5052
+2023-06-05 05:40:33.849 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-06-05 05:40:33.849 +05:00 [INF] Hosting environment: Development
+2023-06-05 05:40:33.850 +05:00 [INF] Content root path: E:\Sofwarwe Devolopment\C#(.Net)\Working\SocialNetwork\ApplicationWebAPI
+2023-06-05 05:40:35.156 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7057/swagger/index.html - -
+2023-06-05 05:40:35.366 +05:00 [INF] Request:
+Protocol: HTTP/2
+Method: GET
+Scheme: https
+PathBase: 
+Path: /swagger/index.html
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Host: localhost:7057
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br
+Accept-Language: uz-UZ,uz;q=0.9,en;q=0.8,ru;q=0.7
+Upgrade-Insecure-Requests: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-user: [Redacted]
+sec-fetch-dest: [Redacted]
+sec-ch-ua: [Redacted]
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+2023-06-05 05:40:35.617 +05:00 [INF] Response:
+StatusCode: 200
+Content-Type: text/html;charset=utf-8
+2023-06-05 05:40:35.621 +05:00 [INF] HTTP GET /swagger/index.html responded 200 in 259.9958 ms
+2023-06-05 05:40:35.704 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7057/swagger/index.html - - - 200 - text/html;charset=utf-8 551.3565ms
+2023-06-05 05:40:35.711 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7057/_vs/browserLink - -
+2023-06-05 05:40:35.742 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7057/_framework/aspnetcore-browser-refresh.js - -
+2023-06-05 05:40:35.752 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7057/_framework/aspnetcore-browser-refresh.js - - - 200 11980 application/javascript;+charset=utf-8 8.8405ms
+2023-06-05 05:40:35.771 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7057/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 59.9679ms
+2023-06-05 05:40:36.130 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7057/swagger/v1/swagger.json - -
+2023-06-05 05:40:36.132 +05:00 [INF] Request:
+Protocol: HTTP/2
+Method: GET
+Scheme: https
+PathBase: 
+Path: /swagger/v1/swagger.json
+Accept: application/json,*/*
+Host: localhost:7057
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br
+Accept-Language: uz-UZ,uz;q=0.9,en;q=0.8,ru;q=0.7
+Referer: [Redacted]
+sec-ch-ua: [Redacted]
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-dest: [Redacted]
+2023-06-05 05:40:36.353 +05:00 [INF] Response:
+StatusCode: 200
+Content-Type: application/json;charset=utf-8
+Date: Mon, 05 Jun 2023 00:40:35 GMT
+Server: Kestrel
+2023-06-05 05:40:36.354 +05:00 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 222.5122 ms
+2023-06-05 05:40:36.356 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7057/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 225.4457ms
+2023-06-05 05:43:50.233 +05:00 [INF] Request starting HTTP/2 POST https://localhost:7057/api/User/CreateUser application/json 168
+2023-06-05 05:43:50.236 +05:00 [INF] Request:
+Protocol: HTTP/2
+Method: POST
+Scheme: https
+PathBase: 
+Path: /api/User/CreateUser
+Accept: text/plain
+Host: localhost:7057
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br
+Accept-Language: uz-UZ,uz;q=0.9,en;q=0.8,ru;q=0.7
+Content-Type: application/json
+Origin: [Redacted]
+Referer: [Redacted]
+Content-Length: 168
+sec-ch-ua: [Redacted]
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-dest: [Redacted]
+2023-06-05 05:43:50.272 +05:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2023-06-05 05:43:50.278 +05:00 [INF] AuthenticationScheme: Bearer was challenged.
+2023-06-05 05:43:50.279 +05:00 [INF] Response:
+StatusCode: 401
+WWW-Authenticate: [Redacted]
+2023-06-05 05:43:50.280 +05:00 [INF] HTTP POST /api/User/CreateUser responded 401 in 44.0206 ms
+2023-06-05 05:43:50.281 +05:00 [INF] Request finished HTTP/2 POST https://localhost:7057/api/User/CreateUser application/json 168 - 401 0 - 47.2616ms
+2023-06-05 05:45:45.895 +05:00 [INF] Application is started
+2023-06-05 05:45:46.107 +05:00 [INF] User profile is available. Using 'C:\Users\Ulug'bek\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-06-05 05:45:46.204 +05:00 [INF] Now listening on: https://localhost:7057
+2023-06-05 05:45:46.205 +05:00 [INF] Now listening on: http://localhost:5052
+2023-06-05 05:45:46.211 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-06-05 05:45:46.211 +05:00 [INF] Hosting environment: Development
+2023-06-05 05:45:46.212 +05:00 [INF] Content root path: E:\Sofwarwe Devolopment\C#(.Net)\Working\SocialNetwork\ApplicationWebAPI
+2023-06-05 05:45:47.425 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7057/swagger/index.html - -
+2023-06-05 05:45:47.515 +05:00 [INF] Request:
+Protocol: HTTP/2
+Method: GET
+Scheme: https
+PathBase: 
+Path: /swagger/index.html
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Host: localhost:7057
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br
+Accept-Language: uz-UZ,uz;q=0.9,en;q=0.8,ru;q=0.7
+Upgrade-Insecure-Requests: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-user: [Redacted]
+sec-fetch-dest: [Redacted]
+sec-ch-ua: [Redacted]
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+2023-06-05 05:45:47.817 +05:00 [INF] Response:
+StatusCode: 200
+Content-Type: text/html;charset=utf-8
+2023-06-05 05:45:47.822 +05:00 [INF] HTTP GET /swagger/index.html responded 200 in 314.4000 ms
+2023-06-05 05:45:47.875 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7057/swagger/index.html - - - 200 - text/html;charset=utf-8 441.9015ms
+2023-06-05 05:45:47.935 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7057/_vs/browserLink - -
+2023-06-05 05:45:47.948 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7057/_framework/aspnetcore-browser-refresh.js - -
+2023-06-05 05:45:47.966 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7057/_framework/aspnetcore-browser-refresh.js - - - 200 11980 application/javascript;+charset=utf-8 17.4266ms
+2023-06-05 05:45:48.002 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7057/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 67.2166ms
+2023-06-05 05:45:48.400 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7057/swagger/v1/swagger.json - -
+2023-06-05 05:45:48.401 +05:00 [INF] Request:
+Protocol: HTTP/2
+Method: GET
+Scheme: https
+PathBase: 
+Path: /swagger/v1/swagger.json
+Accept: application/json,*/*
+Host: localhost:7057
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br
+Accept-Language: uz-UZ,uz;q=0.9,en;q=0.8,ru;q=0.7
+Referer: [Redacted]
+sec-ch-ua: [Redacted]
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-dest: [Redacted]
+2023-06-05 05:45:48.691 +05:00 [INF] Response:
+StatusCode: 200
+Content-Type: application/json;charset=utf-8
+Date: Mon, 05 Jun 2023 00:45:48 GMT
+Server: Kestrel
+2023-06-05 05:45:48.726 +05:00 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 324.8126 ms
+2023-06-05 05:45:48.728 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7057/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 327.8901ms
+2023-06-05 05:46:57.959 +05:00 [INF] Request starting HTTP/2 POST https://localhost:7057/api/User/CreateUser application/json 168
+2023-06-05 05:46:57.961 +05:00 [INF] Request:
+Protocol: HTTP/2
+Method: POST
+Scheme: https
+PathBase: 
+Path: /api/User/CreateUser
+Accept: text/plain
+Host: localhost:7057
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br
+Accept-Language: uz-UZ,uz;q=0.9,en;q=0.8,ru;q=0.7
+Content-Type: application/json
+Origin: [Redacted]
+Referer: [Redacted]
+Content-Length: 168
+sec-ch-ua: [Redacted]
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-dest: [Redacted]
+2023-06-05 05:46:57.995 +05:00 [INF] Executing endpoint 'WebUI.Controllers.UserController.CreateUser (WebUI)'
+2023-06-05 05:46:58.023 +05:00 [INF] Route matched with {action = "CreateUser", controller = "User"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[Domain.Models.Response`1[Domain.Models.Entities.User]]] CreateUser(Application.Users.CreateUserCommand) on controller WebUI.Controllers.UserController (WebUI).
+2023-06-05 05:46:59.394 +05:00 [INF] Executed DbCommand (12ms) [Parameters=[@__entity_UserName_0='?'], CommandType='"Text"', CommandTimeout='30']
+SELECT u."Id", u."Created", u."CreatedBy", u."Email", u."Fullname", u."LastModified", u."LastModifiedBy", u."Password", u."Phone", u."UserName"
+FROM "Users" AS u
+WHERE u."UserName" = @__entity_UserName_0
+LIMIT 1
+2023-06-05 05:46:59.505 +05:00 [INF] Executed DbCommand (7ms) [Parameters=[@p0='?' (DbType = Guid), @p1='?' (DbType = DateTime), @p2='?', @p3='?', @p4='?', @p5='?' (DbType = DateTime), @p6='?', @p7='?', @p8='?', @p9='?'], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "Users" ("Id", "Created", "CreatedBy", "Email", "Fullname", "LastModified", "LastModifiedBy", "Password", "Phone", "UserName")
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8, @p9);
+2023-06-05 05:46:59.526 +05:00 [INF] Executing OkObjectResult, writing value of type 'Domain.Models.Response`1[[Domain.Models.Entities.User, Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-06-05 05:46:59.536 +05:00 [INF] Executed action WebUI.Controllers.UserController.CreateUser (WebUI) in 1507.429ms
+2023-06-05 05:46:59.537 +05:00 [INF] Executed endpoint 'WebUI.Controllers.UserController.CreateUser (WebUI)'
+2023-06-05 05:46:59.539 +05:00 [INF] Response:
+StatusCode: 200
+Content-Type: application/json; charset=utf-8
+Date: Mon, 05 Jun 2023 00:46:59 GMT
+Server: Kestrel
+2023-06-05 05:46:59.540 +05:00 [INF] HTTP POST /api/User/CreateUser responded 200 in 1578.6908 ms
+2023-06-05 05:46:59.550 +05:00 [INF] Request finished HTTP/2 POST https://localhost:7057/api/User/CreateUser application/json 168 - 200 - application/json;+charset=utf-8 1591.7035ms
+2023-06-05 06:12:39.068 +05:00 [INF] Request starting HTTP/2 POST https://localhost:7057/api/Post/CreatePost application/json 105
+2023-06-05 06:12:39.070 +05:00 [INF] Request:
+Protocol: HTTP/2
+Method: POST
+Scheme: https
+PathBase: 
+Path: /api/Post/CreatePost
+Accept: text/plain
+Host: localhost:7057
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br
+Accept-Language: uz-UZ,uz;q=0.9,en;q=0.8,ru;q=0.7
+Content-Type: application/json
+Origin: [Redacted]
+Referer: [Redacted]
+Content-Length: 105
+sec-ch-ua: [Redacted]
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-dest: [Redacted]
+2023-06-05 06:12:39.074 +05:00 [INF] Executing endpoint 'WebUI.Controllers.PostController.CreatePost (WebUI)'
+2023-06-05 06:12:39.081 +05:00 [INF] Route matched with {action = "CreatePost", controller = "Post"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[Domain.Models.Response`1[Domain.Models.Entities.Post]]] CreatePost(Application.Posts.CreatePostCommand) on controller WebUI.Controllers.PostController (WebUI).
+2023-06-05 06:12:39.099 +05:00 [INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2023-06-05 06:12:39.102 +05:00 [INF] Executed action WebUI.Controllers.PostController.CreatePost (WebUI) in 19.9167ms
+2023-06-05 06:12:39.103 +05:00 [INF] Executed endpoint 'WebUI.Controllers.PostController.CreatePost (WebUI)'
+2023-06-05 06:12:39.104 +05:00 [INF] Response:
+StatusCode: 400
+Content-Type: application/problem+json; charset=utf-8
+Date: Mon, 05 Jun 2023 01:12:38 GMT
+Server: Kestrel
+2023-06-05 06:12:39.105 +05:00 [INF] HTTP POST /api/Post/CreatePost responded 400 in 34.3487 ms
+2023-06-05 06:12:39.106 +05:00 [INF] Request finished HTTP/2 POST https://localhost:7057/api/Post/CreatePost application/json 105 - 400 - application/problem+json;+charset=utf-8 37.9613ms
+2023-06-05 11:50:56.089 +05:00 [INF] Application is started
+2023-06-05 11:50:56.275 +05:00 [FTL] Some services are not able to be constructed (Error while validating the service descriptor 'ServiceType: MediatR.INotificationHandler`1[Application.Notification.CreatePostNotification] Lifetime: Transient ImplementationType: Application.Notification.CreatePostNotificationHandler': Unable to resolve service for type 'Microsoft.Extensions.Logging.ILogger' while attempting to activate 'Application.Notification.CreatePostNotificationHandler'.)
+System.AggregateException: Some services are not able to be constructed (Error while validating the service descriptor 'ServiceType: MediatR.INotificationHandler`1[Application.Notification.CreatePostNotification] Lifetime: Transient ImplementationType: Application.Notification.CreatePostNotificationHandler': Unable to resolve service for type 'Microsoft.Extensions.Logging.ILogger' while attempting to activate 'Application.Notification.CreatePostNotificationHandler'.)
+ ---> System.InvalidOperationException: Error while validating the service descriptor 'ServiceType: MediatR.INotificationHandler`1[Application.Notification.CreatePostNotification] Lifetime: Transient ImplementationType: Application.Notification.CreatePostNotificationHandler': Unable to resolve service for type 'Microsoft.Extensions.Logging.ILogger' while attempting to activate 'Application.Notification.CreatePostNotificationHandler'.
+ ---> System.InvalidOperationException: Unable to resolve service for type 'Microsoft.Extensions.Logging.ILogger' while attempting to activate 'Application.Notification.CreatePostNotificationHandler'.
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateArgumentCallSites(Type implementationType, CallSiteChain callSiteChain, ParameterInfo[] parameters, Boolean throwIfCallSiteNotFound)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.CreateConstructorCallSite(ResultCache lifetime, Type serviceType, Type implementationType, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.TryCreateExact(ServiceDescriptor descriptor, Type serviceType, CallSiteChain callSiteChain, Int32 slot)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteFactory.GetCallSite(ServiceDescriptor serviceDescriptor, CallSiteChain callSiteChain)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.ValidateService(ServiceDescriptor descriptor)
+   --- End of inner exception stack trace ---
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.ValidateService(ServiceDescriptor descriptor)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider..ctor(ICollection`1 serviceDescriptors, ServiceProviderOptions options)
+   --- End of inner exception stack trace ---
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider..ctor(ICollection`1 serviceDescriptors, ServiceProviderOptions options)
+   at Microsoft.Extensions.DependencyInjection.ServiceCollectionContainerBuilderExtensions.BuildServiceProvider(IServiceCollection services, ServiceProviderOptions options)
+   at Microsoft.Extensions.Hosting.HostApplicationBuilder.Build()
+   at Microsoft.AspNetCore.Builder.WebApplicationBuilder.Build()
+   at WebUI.Program.Build(WebApplicationBuilder builder) in E:\Sofwarwe Devolopment\C#(.Net)\Working\SocialNetwork\ApplicationWebAPI\Program.cs:line 107
+   at WebUI.Program.Main(String[] args) in E:\Sofwarwe Devolopment\C#(.Net)\Working\SocialNetwork\ApplicationWebAPI\Program.cs:line 31
+2023-06-05 11:54:52.666 +05:00 [INF] Application is started
+2023-06-05 11:54:52.878 +05:00 [INF] User profile is available. Using 'C:\Users\Ulug'bek\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-06-05 11:54:52.994 +05:00 [INF] Now listening on: https://localhost:7057
+2023-06-05 11:54:52.995 +05:00 [INF] Now listening on: http://localhost:5052
+2023-06-05 11:54:52.997 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-06-05 11:54:52.998 +05:00 [INF] Hosting environment: Development
+2023-06-05 11:54:52.998 +05:00 [INF] Content root path: E:\Sofwarwe Devolopment\C#(.Net)\Working\SocialNetwork\ApplicationWebAPI
+2023-06-05 11:54:53.569 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7057/swagger/index.html - -
+2023-06-05 11:54:53.619 +05:00 [INF] Request:
+Protocol: HTTP/2
+Method: GET
+Scheme: https
+PathBase: 
+Path: /swagger/index.html
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Host: localhost:7057
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br
+Accept-Language: uz-UZ,uz;q=0.9,en;q=0.8,ru;q=0.7
+Upgrade-Insecure-Requests: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-user: [Redacted]
+sec-fetch-dest: [Redacted]
+sec-ch-ua: [Redacted]
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+2023-06-05 11:54:53.777 +05:00 [INF] Response:
+StatusCode: 200
+Content-Type: text/html;charset=utf-8
+2023-06-05 11:54:53.780 +05:00 [INF] HTTP GET /swagger/index.html responded 200 in 163.2960 ms
+2023-06-05 11:54:53.840 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7057/swagger/index.html - - - 200 - text/html;charset=utf-8 272.0232ms
+2023-06-05 11:54:53.878 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7057/_vs/browserLink - -
+2023-06-05 11:54:53.878 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7057/_framework/aspnetcore-browser-refresh.js - -
+2023-06-05 11:54:53.887 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7057/_framework/aspnetcore-browser-refresh.js - - - 200 11980 application/javascript;+charset=utf-8 9.3169ms
+2023-06-05 11:54:53.933 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7057/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 55.5476ms
+2023-06-05 11:54:54.287 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7057/swagger/v1/swagger.json - -
+2023-06-05 11:54:54.291 +05:00 [INF] Request:
+Protocol: HTTP/2
+Method: GET
+Scheme: https
+PathBase: 
+Path: /swagger/v1/swagger.json
+Accept: application/json,*/*
+Host: localhost:7057
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br
+Accept-Language: uz-UZ,uz;q=0.9,en;q=0.8,ru;q=0.7
+Referer: [Redacted]
+sec-ch-ua: [Redacted]
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-dest: [Redacted]
+2023-06-05 11:54:54.540 +05:00 [INF] Response:
+StatusCode: 200
+Content-Type: application/json;charset=utf-8
+Date: Mon, 05 Jun 2023 06:54:53 GMT
+Server: Kestrel
+2023-06-05 11:54:54.541 +05:00 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 250.6424 ms
+2023-06-05 11:54:54.543 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7057/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 256.1187ms
+2023-06-05 11:56:30.808 +05:00 [INF] Application is started
+2023-06-05 11:56:30.938 +05:00 [FTL] The host was aborted.
+Microsoft.Extensions.Hosting.HostAbortedException: The host was aborted.
+   at Microsoft.Extensions.Hosting.HostFactoryResolver.HostingListener.ThrowHostAborted()
+   at Microsoft.Extensions.Hosting.HostFactoryResolver.HostingListener.OnNext(KeyValuePair`2 value)
+   at System.Diagnostics.DiagnosticListener.Write(String name, Object value)
+   at Microsoft.Extensions.Hosting.HostBuilder.ResolveHost(IServiceProvider serviceProvider, DiagnosticListener diagnosticListener)
+   at Microsoft.Extensions.Hosting.HostApplicationBuilder.Build()
+   at Microsoft.AspNetCore.Builder.WebApplicationBuilder.Build()
+   at WebUI.Program.Build(WebApplicationBuilder builder) in E:\Sofwarwe Devolopment\C#(.Net)\Working\SocialNetwork\ApplicationWebAPI\Program.cs:line 107
+   at WebUI.Program.Main(String[] args) in E:\Sofwarwe Devolopment\C#(.Net)\Working\SocialNetwork\ApplicationWebAPI\Program.cs:line 31
+2023-06-05 11:56:39.383 +05:00 [INF] Application is started
+2023-06-05 11:56:39.506 +05:00 [FTL] The host was aborted.
+Microsoft.Extensions.Hosting.HostAbortedException: The host was aborted.
+   at Microsoft.Extensions.Hosting.HostFactoryResolver.HostingListener.ThrowHostAborted()
+   at Microsoft.Extensions.Hosting.HostFactoryResolver.HostingListener.OnNext(KeyValuePair`2 value)
+   at System.Diagnostics.DiagnosticListener.Write(String name, Object value)
+   at Microsoft.Extensions.Hosting.HostBuilder.ResolveHost(IServiceProvider serviceProvider, DiagnosticListener diagnosticListener)
+   at Microsoft.Extensions.Hosting.HostApplicationBuilder.Build()
+   at Microsoft.AspNetCore.Builder.WebApplicationBuilder.Build()
+   at WebUI.Program.Build(WebApplicationBuilder builder) in E:\Sofwarwe Devolopment\C#(.Net)\Working\SocialNetwork\ApplicationWebAPI\Program.cs:line 107
+   at WebUI.Program.Main(String[] args) in E:\Sofwarwe Devolopment\C#(.Net)\Working\SocialNetwork\ApplicationWebAPI\Program.cs:line 31
+2023-06-05 11:56:40.600 +05:00 [INF] Executed DbCommand (14ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (SELECT 1 FROM pg_catalog.pg_class c JOIN pg_catalog.pg_namespace n ON n.oid=c.relnamespace WHERE c.relname='__EFMigrationsHistory');
+2023-06-05 11:56:40.638 +05:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT EXISTS (SELECT 1 FROM pg_catalog.pg_class c JOIN pg_catalog.pg_namespace n ON n.oid=c.relnamespace WHERE c.relname='__EFMigrationsHistory');
+2023-06-05 11:56:40.676 +05:00 [INF] Executed DbCommand (4ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "MigrationId", "ProductVersion"
+FROM "__EFMigrationsHistory"
+ORDER BY "MigrationId";
+2023-06-05 11:56:40.710 +05:00 [INF] Applying migration '20230605065632_init2'.
+2023-06-05 11:56:40.793 +05:00 [INF] Executed DbCommand (20ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+ALTER TABLE "Posts" ALTER COLUMN "Content" TYPE text;
+2023-06-05 11:56:40.798 +05:00 [INF] Executed DbCommand (4ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "__EFMigrationsHistory" ("MigrationId", "ProductVersion")
+VALUES ('20230605065632_init2', '7.0.5');
+2023-06-05 11:57:17.723 +05:00 [INF] Application is started
+2023-06-05 11:57:17.953 +05:00 [INF] User profile is available. Using 'C:\Users\Ulug'bek\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-06-05 11:57:18.058 +05:00 [INF] Now listening on: https://localhost:7057
+2023-06-05 11:57:18.058 +05:00 [INF] Now listening on: http://localhost:5052
+2023-06-05 11:57:18.060 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-06-05 11:57:18.061 +05:00 [INF] Hosting environment: Development
+2023-06-05 11:57:18.061 +05:00 [INF] Content root path: E:\Sofwarwe Devolopment\C#(.Net)\Working\SocialNetwork\ApplicationWebAPI
+2023-06-05 11:57:18.615 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7057/swagger/index.html - -
+2023-06-05 11:57:18.665 +05:00 [INF] Request:
+Protocol: HTTP/2
+Method: GET
+Scheme: https
+PathBase: 
+Path: /swagger/index.html
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Host: localhost:7057
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br
+Accept-Language: uz-UZ,uz;q=0.9,en;q=0.8,ru;q=0.7
+Upgrade-Insecure-Requests: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-user: [Redacted]
+sec-fetch-dest: [Redacted]
+sec-ch-ua: [Redacted]
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+2023-06-05 11:57:18.830 +05:00 [INF] Response:
+StatusCode: 200
+Content-Type: text/html;charset=utf-8
+2023-06-05 11:57:18.833 +05:00 [INF] HTTP GET /swagger/index.html responded 200 in 170.9743 ms
+2023-06-05 11:57:18.869 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7057/swagger/index.html - - - 200 - text/html;charset=utf-8 251.1580ms
+2023-06-05 11:57:18.891 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7057/_framework/aspnetcore-browser-refresh.js - -
+2023-06-05 11:57:18.897 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7057/_vs/browserLink - -
+2023-06-05 11:57:18.911 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7057/_framework/aspnetcore-browser-refresh.js - - - 200 11980 application/javascript;+charset=utf-8 12.6064ms
+2023-06-05 11:57:18.959 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7057/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 61.9653ms
+2023-06-05 11:57:19.348 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7057/swagger/v1/swagger.json - -
+2023-06-05 11:57:19.350 +05:00 [INF] Request:
+Protocol: HTTP/2
+Method: GET
+Scheme: https
+PathBase: 
+Path: /swagger/v1/swagger.json
+Accept: application/json,*/*
+Host: localhost:7057
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br
+Accept-Language: uz-UZ,uz;q=0.9,en;q=0.8,ru;q=0.7
+Referer: [Redacted]
+sec-ch-ua: [Redacted]
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-dest: [Redacted]
+2023-06-05 11:57:19.548 +05:00 [INF] Response:
+StatusCode: 200
+Content-Type: application/json;charset=utf-8
+Date: Mon, 05 Jun 2023 06:57:19 GMT
+Server: Kestrel
+2023-06-05 11:57:19.549 +05:00 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 198.6625 ms
+2023-06-05 11:57:19.550 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7057/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 202.2985ms
+2023-06-05 11:58:21.151 +05:00 [INF] Request starting HTTP/2 POST https://localhost:7057/api/Post/CreatePost application/json 105
+2023-06-05 11:58:21.154 +05:00 [INF] Request:
+Protocol: HTTP/2
+Method: POST
+Scheme: https
+PathBase: 
+Path: /api/Post/CreatePost
+Accept: text/plain
+Host: localhost:7057
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br
+Accept-Language: uz-UZ,uz;q=0.9,en;q=0.8,ru;q=0.7
+Content-Type: application/json
+Origin: [Redacted]
+Referer: [Redacted]
+Content-Length: 105
+sec-ch-ua: [Redacted]
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-dest: [Redacted]
+2023-06-05 11:58:21.193 +05:00 [INF] Executing endpoint 'WebUI.Controllers.PostController.CreatePost (WebUI)'
+2023-06-05 11:58:21.225 +05:00 [INF] Route matched with {action = "CreatePost", controller = "Post"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[Domain.Models.Response`1[Domain.Models.Entities.Post]]] CreatePost(Application.Posts.CreatePostCommand) on controller WebUI.Controllers.PostController (WebUI).
+2023-06-05 11:58:22.401 +05:00 [INF] Executed DbCommand (18ms) [Parameters=[@p0='?' (DbType = Guid), @p1='?', @p2='?', @p3='?' (DbType = DateTime), @p4='?', @p5='?' (DbType = DateTime), @p6='?', @p7='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "Posts" ("Id", "Caption", "Content", "Created", "CreatedBy", "LastModified", "LastModifiedBy", "UserId")
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7);
+2023-06-05 11:58:22.428 +05:00 [INF] Executing OkObjectResult, writing value of type 'Domain.Models.Response`1[[Domain.Models.Entities.Post, Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-06-05 11:58:22.453 +05:00 [INF] Executed action WebUI.Controllers.PostController.CreatePost (WebUI) in 1222.9885ms
+2023-06-05 11:58:22.455 +05:00 [INF] Executed endpoint 'WebUI.Controllers.PostController.CreatePost (WebUI)'
+2023-06-05 11:58:22.457 +05:00 [INF] Response:
+StatusCode: 200
+Content-Type: application/json; charset=utf-8
+Date: Mon, 05 Jun 2023 06:58:22 GMT
+Server: Kestrel
+2023-06-05 11:58:22.458 +05:00 [INF] HTTP POST /api/Post/CreatePost responded 200 in 1303.7573 ms
+2023-06-05 11:58:22.469 +05:00 [INF] Request finished HTTP/2 POST https://localhost:7057/api/Post/CreatePost application/json 105 - 200 - application/json;+charset=utf-8 1317.1409ms
+2023-06-05 12:11:37.395 +05:00 [INF] Application is started
+2023-06-05 12:11:37.665 +05:00 [INF] User profile is available. Using 'C:\Users\Ulug'bek\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-06-05 12:11:37.804 +05:00 [INF] Now listening on: https://localhost:7057
+2023-06-05 12:11:37.804 +05:00 [INF] Now listening on: http://localhost:5052
+2023-06-05 12:11:37.807 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-06-05 12:11:37.808 +05:00 [INF] Hosting environment: Development
+2023-06-05 12:11:37.808 +05:00 [INF] Content root path: E:\Sofwarwe Devolopment\C#(.Net)\Working\SocialNetwork\ApplicationWebAPI
+2023-06-05 12:11:38.195 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7057/swagger/index.html - -
+2023-06-05 12:11:38.240 +05:00 [INF] Request:
+Protocol: HTTP/2
+Method: GET
+Scheme: https
+PathBase: 
+Path: /swagger/index.html
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Host: localhost:7057
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br
+Accept-Language: uz-UZ,uz;q=0.9,en;q=0.8,ru;q=0.7
+Cache-Control: max-age=0
+Referer: [Redacted]
+Upgrade-Insecure-Requests: [Redacted]
+sec-ch-ua: [Redacted]
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-dest: [Redacted]
+2023-06-05 12:11:38.666 +05:00 [INF] Response:
+StatusCode: 200
+Content-Type: text/html;charset=utf-8
+2023-06-05 12:11:38.679 +05:00 [INF] HTTP GET /swagger/index.html responded 200 in 438.0918 ms
+2023-06-05 12:11:38.717 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7057/swagger/index.html - - - 200 - text/html;charset=utf-8 523.6152ms
+2023-06-05 12:11:38.878 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7057/_vs/browserLink - -
+2023-06-05 12:11:38.878 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7057/_framework/aspnetcore-browser-refresh.js - -
+2023-06-05 12:11:38.886 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7057/_framework/aspnetcore-browser-refresh.js - - - 200 11980 application/javascript;+charset=utf-8 6.8919ms
+2023-06-05 12:11:38.913 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7057/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 34.9043ms
+2023-06-05 12:11:42.428 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7057/swagger/v1/swagger.json - -
+2023-06-05 12:11:42.430 +05:00 [INF] Request:
+Protocol: HTTP/2
+Method: GET
+Scheme: https
+PathBase: 
+Path: /swagger/v1/swagger.json
+Accept: application/json,*/*
+Host: localhost:7057
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br
+Accept-Language: uz-UZ,uz;q=0.9,en;q=0.8,ru;q=0.7
+Referer: [Redacted]
+sec-ch-ua: [Redacted]
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-dest: [Redacted]
+2023-06-05 12:11:42.551 +05:00 [INF] Response:
+StatusCode: 200
+Content-Type: application/json;charset=utf-8
+Date: Mon, 05 Jun 2023 07:11:41 GMT
+Server: Kestrel
+2023-06-05 12:11:42.551 +05:00 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 122.2805 ms
+2023-06-05 12:11:42.552 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7057/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 124.4548ms
+2023-06-05 12:12:35.363 +05:00 [INF] Request starting HTTP/2 POST https://localhost:7057/api/Post/CreatePost application/json 116
+2023-06-05 12:12:35.366 +05:00 [INF] Request:
+Protocol: HTTP/2
+Method: POST
+Scheme: https
+PathBase: 
+Path: /api/Post/CreatePost
+Accept: text/plain
+Host: localhost:7057
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br
+Accept-Language: uz-UZ,uz;q=0.9,en;q=0.8,ru;q=0.7
+Content-Type: application/json
+Origin: [Redacted]
+Referer: [Redacted]
+Content-Length: 116
+sec-ch-ua: [Redacted]
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-dest: [Redacted]
+2023-06-05 12:12:35.404 +05:00 [INF] Executing endpoint 'WebUI.Controllers.PostController.CreatePost (WebUI)'
+2023-06-05 12:12:35.434 +05:00 [INF] Route matched with {action = "CreatePost", controller = "Post"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[Domain.Models.Response`1[Domain.Models.Entities.Post]]] CreatePost(Application.Posts.CreatePostCommand) on controller WebUI.Controllers.PostController (WebUI).
+2023-06-05 12:12:36.603 +05:00 [INF] Executed DbCommand (15ms) [Parameters=[@p0='?' (DbType = Guid), @p1='?', @p2='?', @p3='?' (DbType = DateTime), @p4='?', @p5='?' (DbType = DateTime), @p6='?', @p7='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "Posts" ("Id", "Caption", "Content", "Created", "CreatedBy", "LastModified", "LastModifiedBy", "UserId")
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7);
+2023-06-05 12:12:36.628 +05:00 [INF] PostId: 7893bfe4-c15b-4bf2-aee2-cac295e2e8b5
+UserId:d634c4b8-bfc9-46ab-90dc-58d83bc807cf
+2023-06-05 12:12:36.636 +05:00 [INF] Executing OkObjectResult, writing value of type 'Domain.Models.Response`1[[Domain.Models.Entities.Post, Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2023-06-05 12:12:36.660 +05:00 [INF] Executed action WebUI.Controllers.PostController.CreatePost (WebUI) in 1221.2261ms
+2023-06-05 12:12:36.662 +05:00 [INF] Executed endpoint 'WebUI.Controllers.PostController.CreatePost (WebUI)'
+2023-06-05 12:12:36.664 +05:00 [INF] Response:
+StatusCode: 200
+Content-Type: application/json; charset=utf-8
+Date: Mon, 05 Jun 2023 07:12:35 GMT
+Server: Kestrel
+2023-06-05 12:12:36.664 +05:00 [INF] HTTP POST /api/Post/CreatePost responded 200 in 1298.7411 ms
+2023-06-05 12:12:36.681 +05:00 [INF] Request finished HTTP/2 POST https://localhost:7057/api/Post/CreatePost application/json 116 - 200 - application/json;+charset=utf-8 1318.5381ms
+2023-06-05 12:25:49.068 +05:00 [INF] Application is started
+2023-06-05 12:25:49.306 +05:00 [INF] User profile is available. Using 'C:\Users\Ulug'bek\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-06-05 12:25:49.408 +05:00 [INF] Now listening on: https://localhost:7057
+2023-06-05 12:25:49.409 +05:00 [INF] Now listening on: http://localhost:5052
+2023-06-05 12:25:49.410 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-06-05 12:25:49.411 +05:00 [INF] Hosting environment: Development
+2023-06-05 12:25:49.412 +05:00 [INF] Content root path: E:\Sofwarwe Devolopment\C#(.Net)\Working\SocialNetwork\ApplicationWebAPI
+2023-06-05 12:25:49.876 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7057/swagger/index.html - -
+2023-06-05 12:25:49.917 +05:00 [INF] Request:
+Protocol: HTTP/2
+Method: GET
+Scheme: https
+PathBase: 
+Path: /swagger/index.html
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Host: localhost:7057
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br
+Accept-Language: uz-UZ,uz;q=0.9,en;q=0.8,ru;q=0.7
+Cache-Control: max-age=0
+Referer: [Redacted]
+Upgrade-Insecure-Requests: [Redacted]
+sec-ch-ua: [Redacted]
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-dest: [Redacted]
+2023-06-05 12:25:50.065 +05:00 [INF] Response:
+StatusCode: 200
+Content-Type: text/html;charset=utf-8
+2023-06-05 12:25:50.068 +05:00 [INF] HTTP GET /swagger/index.html responded 200 in 153.3321 ms
+2023-06-05 12:25:50.096 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7057/swagger/index.html - - - 200 - text/html;charset=utf-8 222.0054ms
+2023-06-05 12:25:50.127 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7057/_vs/browserLink - -
+2023-06-05 12:25:50.127 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7057/_framework/aspnetcore-browser-refresh.js - -
+2023-06-05 12:25:50.135 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7057/_framework/aspnetcore-browser-refresh.js - - - 200 11980 application/javascript;+charset=utf-8 6.8045ms
+2023-06-05 12:25:50.164 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7057/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 37.2761ms
+2023-06-05 12:25:52.499 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7057/swagger/v1/swagger.json - -
+2023-06-05 12:25:52.504 +05:00 [INF] Request:
+Protocol: HTTP/2
+Method: GET
+Scheme: https
+PathBase: 
+Path: /swagger/v1/swagger.json
+Accept: application/json,*/*
+Host: localhost:7057
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate, br
+Accept-Language: uz-UZ,uz;q=0.9,en;q=0.8,ru;q=0.7
+Referer: [Redacted]
+sec-ch-ua: [Redacted]
+sec-ch-ua-mobile: [Redacted]
+sec-ch-ua-platform: [Redacted]
+sec-fetch-site: [Redacted]
+sec-fetch-mode: [Redacted]
+sec-fetch-dest: [Redacted]
+2023-06-05 12:25:52.682 +05:00 [INF] Response:
+StatusCode: 200
+Content-Type: application/json;charset=utf-8
+Date: Mon, 05 Jun 2023 07:25:52 GMT
+Server: Kestrel
+2023-06-05 12:25:52.683 +05:00 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 179.6160 ms
+2023-06-05 12:25:52.684 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7057/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 184.9603ms
